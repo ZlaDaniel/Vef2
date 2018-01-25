@@ -1,5 +1,2 @@
 bottle 
 os
-static_file
-request
-error
