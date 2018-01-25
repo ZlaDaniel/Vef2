@@ -32,7 +32,7 @@ def result():
 
 @route("/static/<filename>")
 def server_static(filename):
-    return static_file(filename, root="./myfiles")
+    return static_file(filename, root="/")
 
 @error(404)
 def error404(error):
