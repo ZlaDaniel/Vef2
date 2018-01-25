@@ -11,7 +11,7 @@ def verk2a():
     return "<h2>Verkefni 2a</h2>" \
            "<a href ='/verk2a/1'>Page 1</a><br></br>" \
            "<a href ='/verk2a/2'>Page 2</a><br></br>" \
-           "<a href ='/verk2a/3'>Page 3</a>" \
+           "<a href ='/verk2a/3'>Page 3</a><br></br>" \
            "<a href ='/'>Til baka</a>"
 
 @route("/verk2a/<n>")
