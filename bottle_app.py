@@ -1,5 +1,5 @@
-from bottle import route, run, static_file, request, error, os
-
+from bottle import route, run, static_file, request, error
+import os
 @route("/")
 def index():
     return "<h2>Hello bottle, web framework</h2>" \
